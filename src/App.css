@@ -1,0 +1,70 @@
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 110px;
+}
+
+.number {
+  background-color: rgb(184, 160, 248);
+  width: 30px;
+  border: none;
+  margin: 3px;
+  border-radius: 20%;
+}
+
+#operations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  flex-direction: column;
+}
+
+.operation {
+  background-color: rgb(219, 213, 243);
+  width: 30px;
+  border: none;
+  margin: 3px;
+  border-radius: 20%;
+}
+
+#otherButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.otherButton {
+  background-color: rgb(196, 197, 247);
+  width: 30px;
+  border: none;
+  margin: 3px;
+  border-radius: 20%;
+  height: 40%;
+}
+
+#memory {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(242, 212, 252);
+  border-radius: 25px;
+  align-self: stretch;
+  margin: 10px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+}
+
+#background {
+  background: linear-gradient(rgb(0, 32, 136), rgb(73, 7, 134));
+  border-radius: 25px;
+  max-width: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 10px;
+  margin: 30px;
+}
