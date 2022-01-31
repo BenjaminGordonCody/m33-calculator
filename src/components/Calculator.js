@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-const Math = require("mathjs");
+import { Math } from "mathjs";
 
 const Calculator = (args) => {
   // set and get functions
