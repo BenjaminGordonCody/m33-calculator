@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Math } from "mathjs";
+import { evaluate } from "mathjs";
 
 const Calculator = (args) => {
   // set and get functions
@@ -48,7 +48,7 @@ const Calculator = (args) => {
         className="otherButton"
         onClick={() => {
           let expression = memory.join("");
-          let result = Math.evaluate(expression);
+          let result = evaluate(expression);
           setMemory([result]);
           setDisplay(result);
         }}
